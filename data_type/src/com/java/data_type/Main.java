@@ -1,4 +1,4 @@
-package com.java.integer;
+package com.java.data_type;
 
 public class Main {
     public static void main(String[] args) {
