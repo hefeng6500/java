@@ -1,6 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        byte b = (byte) 130;
-        System.out.println(b);
+        byte a = 1;
+
+        a += 1;
+
+        a = (byte) (a + 1);
+
+        System.out.println(a);
     }
 }
