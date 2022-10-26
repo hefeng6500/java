@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82510301-371f-4088-a337-500e5c97eae3" name="Changes" comment="chore: refactor name">
-      <change afterPath="$PROJECT_DIR$/data_type/src/com/java/operator/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_type/src/com/java/operator/Operator02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_type/src/com/java/operator/Operator03.java" afterDir="false" />
+    <list default="true" id="82510301-371f-4088-a337-500e5c97eae3" name="Changes" comment="feat: 学习一些运算符">
+      <change afterPath="$PROJECT_DIR$/array/array.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/src/com/java/array/ArrayInitial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/src/com/java/array/RefrenceAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/class.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/democlass/DemoClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/democlass/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/democlass/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/extend/ExtendDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/extend/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/extend/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_type/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_type/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +51,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/test-workspace/javaSE&quot;,
@@ -51,13 +62,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Operator03">
-    <configuration name="DataConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.data_conversion.DataConversion" />
-      <module name="data_type" />
+  <component name="RunManager" selected="Application.ExtendDemo">
+    <configuration name="DemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.democlass.DemoClass" />
+      <module name="class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.data_conversion.*" />
+          <option name="PATTERN" value="com.java.democlass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,35 +76,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtendDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.extend.ExtendDemo" />
+      <module name="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.extend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="data_type" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.operator.Operator" />
-      <module name="data_type" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.operator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Operator02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.operator.Operator02" />
-      <module name="data_type" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.operator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <module name="javaSE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,13 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.democlass.TestStudent" />
+      <module name="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.democlass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExtendDemo" />
+        <item itemvalue="Application.TestStudent" />
+        <item itemvalue="Application.DemoClass" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Operator03" />
-        <item itemvalue="Application.Operator02" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Operator" />
-        <item itemvalue="Application.DataConversion" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +141,10 @@
       <option name="presentableId" value="Default" />
       <updated>1666096697054</updated>
       <workItem from="1666096698891" duration="4496000" />
+      <workItem from="1666499643676" duration="3290000" />
+      <workItem from="1666616636412" duration="1477000" />
+      <workItem from="1666704945747" duration="1573000" />
+      <workItem from="1666782896132" duration="1704000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>
@@ -145,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666428266910</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: 学习一些运算符">
+      <created>1666446986417</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666446986417</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +187,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: project init" />
     <MESSAGE value="chore: refactor name" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: refactor name" />
+    <MESSAGE value="feat: 学习一些运算符" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 学习一些运算符" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
