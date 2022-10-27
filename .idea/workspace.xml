@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82510301-371f-4088-a337-500e5c97eae3" name="Changes" comment="feat: 学习一些运算符">
-      <change afterPath="$PROJECT_DIR$/array/array.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/src/com/java/array/ArrayInitial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array/src/com/java/array/RefrenceAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/class.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/src/com/java/democlass/DemoClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/src/com/java/democlass/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/src/com/java/democlass/TestStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/src/com/java/extend/ExtendDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/src/com/java/extend/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/src/com/java/extend/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="82510301-371f-4088-a337-500e5c97eae3" name="Changes" comment="feat: 学习 class">
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/classtest/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/classtest/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/classtest/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/classtest/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/classtest/USB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExtendDemo">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="DemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.democlass.DemoClass" />
       <module name="class" />
@@ -96,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operator03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.operator.Operator03" />
-      <module name="data_type" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.classtest.Test" />
+      <module name="class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.operator.*" />
+          <option name="PATTERN" value="com.java.classtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ExtendDemo" />
         <item itemvalue="Application.TestStudent" />
         <item itemvalue="Application.DemoClass" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Operator03" />
       </list>
     </recent_temporary>
   </component>
