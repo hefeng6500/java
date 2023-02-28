@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82510301-371f-4088-a337-500e5c97eae3" name="Changes" comment="feat: 学习 class">
-      <change afterPath="$PROJECT_DIR$/class/src/com/java/classtest/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/src/com/java/classtest/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/src/com/java/classtest/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/src/com/java/classtest/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/src/com/java/classtest/USB.java" afterDir="false" />
+    <list default="true" id="82510301-371f-4088-a337-500e5c97eae3" name="Changes" comment="feat: 学习类的多态">
+      <change afterPath="$PROJECT_DIR$/array/src/com/java/array/Array01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/src/com/java/array/Array02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/src/com/java/array/Array03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/src/com/java/array/Array04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +29,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../soft/apache-maven-3.8.6-bin/apache-maven-3.8.6" />
+        <option name="userSettingsFile" value="D:\soft\apache-maven-3.8.6-bin\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2GJBEZKoHVgV2Y03t90ri6iFVDE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,28 +45,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/test-workspace/javaSE&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "D:/java-workplace/javaSE",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="DemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.democlass.DemoClass" />
-      <module name="class" />
+}]]></component>
+  <component name="RunManager" selected="Application.Array04">
+    <configuration name="Array01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.array.Array01" />
+      <module name="array" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.democlass.*" />
+          <option name="PATTERN" value="com.java.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.extend.ExtendDemo" />
-      <module name="class" />
+    <configuration name="Array02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.array.Array02" />
+      <module name="array" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.extend.*" />
+          <option name="PATTERN" value="com.java.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,9 +87,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="javaSE" />
+    <configuration name="Array03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.array.Array03" />
+      <module name="array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.array.Array04" />
+      <module name="array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.democlass.TestStudent" />
-      <module name="class" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.democlass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Array04" />
+        <item itemvalue="Application.Array03" />
+        <item itemvalue="Application.Array02" />
+        <item itemvalue="Application.Array01" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ExtendDemo" />
-        <item itemvalue="Application.TestStudent" />
-        <item itemvalue="Application.DemoClass" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +149,11 @@
       <workItem from="1666616636412" duration="1477000" />
       <workItem from="1666704945747" duration="1573000" />
       <workItem from="1666782896132" duration="1704000" />
+      <workItem from="1666878410256" duration="1283000" />
+      <workItem from="1667306293670" duration="597000" />
+      <workItem from="1668172973426" duration="1998000" />
+      <workItem from="1668175791300" duration="13000" />
+      <workItem from="1677587354317" duration="2335000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>
@@ -158,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666446986417</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: 学习类的多态">
+      <created>1666878495353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666878495353</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +204,8 @@
     <MESSAGE value="chore: project init" />
     <MESSAGE value="chore: refactor name" />
     <MESSAGE value="feat: 学习一些运算符" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 学习一些运算符" />
+    <MESSAGE value="feat: 学习类的多态" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 学习类的多态" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
