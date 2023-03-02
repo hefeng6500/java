@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/data_type/data_type.iml" filepath="$PROJECT_DIR$/data_type/data_type.iml" />
       <module fileurl="file://$PROJECT_DIR$/function/function.iml" filepath="$PROJECT_DIR$/function/function.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaSE.iml" filepath="$PROJECT_DIR$/javaSE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train/train.iml" filepath="$PROJECT_DIR$/train/train.iml" />
     </modules>
   </component>
 </project>
