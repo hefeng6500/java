@@ -9,7 +9,7 @@ public class Array04 {
 
         for (int i = 0; i < arr.length; i++) {
             Random random = new Random();
-            int index = random.nextInt(arr.length - 1); // 0 - 8
+            int index = random.nextInt(arr.length - 1); // [0, 8)
 
 //            int temp = arr[i];
 //            arr[i] = arr[index];

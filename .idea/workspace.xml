@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82510301-371f-4088-a337-500e5c97eae3" name="Changes" comment="feat: 思维训练">
-      <change afterPath="$PROJECT_DIR$/train/src/Train02.java" afterDir="false" />
+    <list default="true" id="82510301-371f-4088-a337-500e5c97eae3" name="Changes" comment="feat: 找素数">
+      <change afterPath="$PROJECT_DIR$/train/src/Train03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/src/com/java/array/Array04.java" beforeDir="false" afterPath="$PROJECT_DIR$/array/src/com/java/array/Array04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Train02">
+  <component name="RunManager" selected="Application.Train03">
     <configuration name="Function01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Function01" />
       <module name="function" />
@@ -70,13 +71,6 @@
     </configuration>
     <configuration name="Function02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Function02" />
-      <module name="function" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="function" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,13 +90,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Train03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Train03" />
+      <module name="train" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Train03" />
         <item itemvalue="Application.Train02" />
         <item itemvalue="Application.Train01" />
         <item itemvalue="Application.Function02" />
         <item itemvalue="Application.Function01" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +126,7 @@
       <workItem from="1668175791300" duration="13000" />
       <workItem from="1677587354317" duration="2411000" />
       <workItem from="1677677928776" duration="5533000" />
-      <workItem from="1677896640329" duration="971000" />
+      <workItem from="1677896640329" duration="2654000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>
@@ -176,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677764470269</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: 找素数">
+      <created>1677897649899</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677897649899</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +209,8 @@
     <MESSAGE value="feat: 学习几个数组的案例" />
     <MESSAGE value="feat: 学习方法重载" />
     <MESSAGE value="feat: 思维训练" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 思维训练" />
+    <MESSAGE value="feat: 找素数" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 找素数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
