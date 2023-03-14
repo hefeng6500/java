@@ -24,6 +24,7 @@ public class Train07 {
         // a、动态初始化一个数组，长度为7
         int[] numbers = new int[7];
         Scanner sc = new Scanner(System.in);
+        sc.next();
         for (int i = 0; i < numbers.length - 1; i++) {
             System.out.println("请您输入第"+(i + 1)+"个红球号码（1-33、不重复）：");
             int data = sc.nextInt();
