@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: 双色球抽奖">
-      <change afterPath="$PROJECT_DIR$/object/object.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/object/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/object/src/Movie.java" afterDir="false" />
+    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: java 类">
+      <change afterPath="$PROJECT_DIR$/string/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string/src/String01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string/src/String02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string/src/String03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string/string.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/src/Train07.java" beforeDir="false" afterPath="$PROJECT_DIR$/train/src/Train07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/object/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.String02">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="string" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="object" />
@@ -72,23 +81,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Train04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Train04" />
-      <module name="train" />
+    <configuration name="String01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String01" />
+      <module name="string" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Train05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Train05" />
-      <module name="train" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Train06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Train06" />
-      <module name="train" />
+    <configuration name="String02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String02" />
+      <module name="string" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.String02" />
+        <item itemvalue="Application.String01" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Train07" />
-        <item itemvalue="Application.Train06" />
-        <item itemvalue="Application.Train05" />
-        <item itemvalue="Application.Train04" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +133,8 @@
       <workItem from="1677677928776" duration="5533000" />
       <workItem from="1677896640329" duration="4948000" />
       <workItem from="1678104063909" duration="2453000" />
-      <workItem from="1678797362731" duration="2524000" />
+      <workItem from="1678797362731" duration="3461000" />
+      <workItem from="1678886460996" duration="1994000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>
@@ -217,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678105599026</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: java 类">
+      <created>1678801455399</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678801455399</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +257,8 @@
     <MESSAGE value="feat: 复制数组" />
     <MESSAGE value="feat: 评委打分" />
     <MESSAGE value="feat: 双色球抽奖" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 双色球抽奖" />
+    <MESSAGE value="feat: java 类" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: java 类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
