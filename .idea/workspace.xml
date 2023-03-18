@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: 字符串比较">
-      <change afterPath="$PROJECT_DIR$/ArrayList/ArrayList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/src/ArrayList01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/src/ArrayList02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/src/ArrayList03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: ArrayList">
+      <change afterPath="$PROJECT_DIR$/ArrayList/src/ArrayList04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +60,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayList03">
+  <component name="RunManager" selected="Application.ArrayList04">
     <configuration name="ArrayList01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayList01" />
       <module name="ArrayList" />
@@ -80,9 +75,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="string" />
+    <configuration name="ArrayList04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayList04" />
+      <module name="ArrayList" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayList04" />
         <item itemvalue="Application.ArrayList03" />
         <item itemvalue="Application.ArrayList01" />
         <item itemvalue="Application.String02" />
         <item itemvalue="Application.String01" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +130,7 @@
       <workItem from="1678797362731" duration="3461000" />
       <workItem from="1678886460996" duration="2170000" />
       <workItem from="1678975455183" duration="401000" />
-      <workItem from="1679145957844" duration="270000" />
+      <workItem from="1679145957844" duration="1057000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>
@@ -235,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678889239426</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: ArrayList">
+      <created>1679146341633</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679146341633</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +269,8 @@
     <MESSAGE value="feat: 双色球抽奖" />
     <MESSAGE value="feat: java 类" />
     <MESSAGE value="feat: 字符串比较" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 字符串比较" />
+    <MESSAGE value="feat: ArrayList" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: ArrayList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
