@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/array/array.iml" filepath="$PROJECT_DIR$/array/array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/case/case.iml" filepath="$PROJECT_DIR$/case/case.iml" />
       <module fileurl="file://$PROJECT_DIR$/class/class.iml" filepath="$PROJECT_DIR$/class/class.iml" />
       <module fileurl="file://$PROJECT_DIR$/data_type/data_type.iml" filepath="$PROJECT_DIR$/data_type/data_type.iml" />
       <module fileurl="file://$PROJECT_DIR$/function/function.iml" filepath="$PROJECT_DIR$/function/function.iml" />

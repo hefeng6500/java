@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: ArrayList">
-      <change afterPath="$PROJECT_DIR$/ArrayList/src/ArrayList04.java" afterDir="false" />
+    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: ArrayList 删除元素">
+      <change afterPath="$PROJECT_DIR$/case/case.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/src/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/src/Case_01_ATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +64,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayList04">
+  <component name="RunManager" selected="Application.Case_01_ATM">
     <configuration name="ArrayList01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayList01" />
       <module name="ArrayList" />
@@ -82,9 +86,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String01" />
-      <module name="string" />
+    <configuration name="Case_01_ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Case_01_ATM" />
+      <module name="case" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Case_01_ATM" />
         <item itemvalue="Application.ArrayList04" />
         <item itemvalue="Application.ArrayList03" />
         <item itemvalue="Application.ArrayList01" />
         <item itemvalue="Application.String02" />
-        <item itemvalue="Application.String01" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +134,7 @@
       <workItem from="1678797362731" duration="3461000" />
       <workItem from="1678886460996" duration="2170000" />
       <workItem from="1678975455183" duration="401000" />
-      <workItem from="1679145957844" duration="1057000" />
+      <workItem from="1679145957844" duration="3219000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>
@@ -237,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679146341633</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: ArrayList 删除元素">
+      <created>1679147037232</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679147037232</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +281,8 @@
     <MESSAGE value="feat: java 类" />
     <MESSAGE value="feat: 字符串比较" />
     <MESSAGE value="feat: ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: ArrayList" />
+    <MESSAGE value="feat: ArrayList 删除元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: ArrayList 删除元素" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
