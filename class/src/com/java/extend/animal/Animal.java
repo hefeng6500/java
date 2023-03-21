@@ -1,24 +1,16 @@
-package com.java.extend;
+package com.java.extend.animal;
 
-public abstract class People {
-
+public class Animal {
     public String name;
     public int age;
 
-    public People() {
+    public Animal() {
     }
 
-    public People(String name, int age) {
+    public Animal(String name, int age) {
         this.name = name;
         this.age = age;
     }
-
-
-
-    public void walk() {
-        System.out.println("walk!");
-    }
-
 
     public String getName() {
         return name;
@@ -35,6 +27,4 @@ public abstract class People {
     public void setAge(int age) {
         this.age = age;
     }
-
-    void test(){ }
 }

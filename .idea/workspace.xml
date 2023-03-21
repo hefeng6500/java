@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: ArrayList 删除元素">
-      <change afterPath="$PROJECT_DIR$/case/case.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/src/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/src/Case_01_ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: ATM 案例">
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/extend/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/extend/animal/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/src/com/java/extend/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/class/src/com/java/extend/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/src/com/java/extend/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/class/src/com/java/extend/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +133,8 @@
       <workItem from="1678797362731" duration="3461000" />
       <workItem from="1678886460996" duration="2170000" />
       <workItem from="1678975455183" duration="401000" />
-      <workItem from="1679145957844" duration="3219000" />
+      <workItem from="1679145957844" duration="5270000" />
+      <workItem from="1679403519365" duration="2378000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>
@@ -248,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679147037232</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: ATM 案例">
+      <created>1679216857221</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679216857221</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +289,8 @@
     <MESSAGE value="feat: 字符串比较" />
     <MESSAGE value="feat: ArrayList" />
     <MESSAGE value="feat: ArrayList 删除元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: ArrayList 删除元素" />
+    <MESSAGE value="feat: ATM 案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: ATM 案例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

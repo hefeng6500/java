@@ -13,4 +13,7 @@ public class Student extends People {
     public void walk() {
         super.walk();
     }
+
+    @Override
+    public void test(){}
 }
