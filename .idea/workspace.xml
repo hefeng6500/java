@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: ATM 案例">
-      <change afterPath="$PROJECT_DIR$/class/src/com/java/extend/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/src/com/java/extend/animal/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/src/com/java/People.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/src/com/java/extend/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/class/src/com/java/extend/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/src/com/java/extend/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/class/src/com/java/extend/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/class/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Case_01_ATM">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ArrayList01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayList01" />
       <module name="ArrayList" />
@@ -92,20 +91,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String02" />
-      <module name="string" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Case_01_ATM" />
         <item itemvalue="Application.ArrayList04" />
         <item itemvalue="Application.ArrayList03" />
         <item itemvalue="Application.ArrayList01" />
-        <item itemvalue="Application.String02" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +134,8 @@
       <workItem from="1678975455183" duration="401000" />
       <workItem from="1679145957844" duration="5270000" />
       <workItem from="1679403519365" duration="2378000" />
+      <workItem from="1679480665131" duration="1657000" />
+      <workItem from="1679638331779" duration="1964000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>

@@ -1,5 +1,9 @@
+import com.java.People;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        People people = new People();
+
+        people.new Heart().show();
     }
 }
