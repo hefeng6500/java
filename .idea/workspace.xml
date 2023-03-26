@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: 内部类">
-      <change afterPath="$PROJECT_DIR$/api/src/date/Test08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/collection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/map/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/set/SetTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://E:/soft/java/lib/src.zip!/java.base/java/util/Calendar.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,13 +64,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test08">
-    <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="date.Test04" />
-      <module name="api" />
+  <component name="RunManager" selected="Application.MapTest">
+    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.MapTest" />
+      <module name="collection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="date.*" />
+          <option name="PATTERN" value="map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="date.Test05" />
-      <module name="api" />
+    <configuration name="SetTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set.SetTest01" />
+      <module name="collection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="date.*" />
+          <option name="PATTERN" value="set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapTest" />
+        <item itemvalue="Application.SetTest01" />
         <item itemvalue="Application.Test08" />
         <item itemvalue="Application.Test07" />
         <item itemvalue="Application.Test06" />
-        <item itemvalue="Application.Test05" />
-        <item itemvalue="Application.Test04" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +168,7 @@
       <workItem from="1679403519365" duration="2378000" />
       <workItem from="1679480665131" duration="1657000" />
       <workItem from="1679638331779" duration="7411000" />
+      <workItem from="1679837790754" duration="221000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>
