@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: 内部类">
-      <change afterPath="$PROJECT_DIR$/collection/collection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/map/MapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/set/SetTest01.java" afterDir="false" />
+    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: 集合类">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/lib/slf4j-api-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/src/com/yang/logback/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/src/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -20,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Tag Library Descriptor" />
         <option value="Class" />
       </list>
     </option>
@@ -46,25 +51,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java-workplace/javaSE&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.46666667&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "D:/java-workplace/javaSE/log/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.46666667",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
-  <component name="RunManager" selected="Application.MapTest">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java-workplace\javaSE\log\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java-workplace\javaSE\log\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="map.MapTest" />
       <module name="collection" />
@@ -91,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="date.Test06" />
-      <module name="api" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.logback.Test" />
+      <module name="log" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="date.*" />
+          <option name="PATTERN" value="com.yang.logback.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.MapTest" />
         <item itemvalue="Application.SetTest01" />
         <item itemvalue="Application.Test08" />
         <item itemvalue="Application.Test07" />
-        <item itemvalue="Application.Test06" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +181,8 @@
       <workItem from="1679403519365" duration="2378000" />
       <workItem from="1679480665131" duration="1657000" />
       <workItem from="1679638331779" duration="7411000" />
-      <workItem from="1679837790754" duration="221000" />
+      <workItem from="1679837790754" duration="682000" />
+      <workItem from="1680096276142" duration="1258000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>
@@ -296,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679642941219</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat: 集合类">
+      <created>1679838475835</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679838475835</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +353,8 @@
     <MESSAGE value="feat: ArrayList 删除元素" />
     <MESSAGE value="feat: ATM 案例" />
     <MESSAGE value="feat: 内部类" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 内部类" />
+    <MESSAGE value="feat: 集合类" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 集合类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
