@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/object/object.iml" filepath="$PROJECT_DIR$/object/object.iml" />
       <module fileurl="file://$PROJECT_DIR$/io/output/output.iml" filepath="$PROJECT_DIR$/io/output/output.iml" />
       <module fileurl="file://$PROJECT_DIR$/string/string.iml" filepath="$PROJECT_DIR$/string/string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/train/train.iml" filepath="$PROJECT_DIR$/train/train.iml" />
     </modules>
   </component>

@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: 黑马电影阶段性项目">
-      <change afterPath="$PROJECT_DIR$/file/file.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/input/src/TestFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/input/src/TestObjectOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/input/src/Testdatainputstream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/input/src/Testfileinputstream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/output/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/output/src/TestBufferedOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/output/src/TestOutPutStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/output/src/TestOutputStreamWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/MultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/thread.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -35,9 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://E:/soft/java/lib/src.zip!/java.base/java/util/Calendar.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -88,10 +76,24 @@
       <recent name="D:\java-workplace\javaSE\log\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestOutputStreamWriter">
-    <configuration name="TestBufferedOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestBufferedOutputStream" />
-      <module name="output" />
+  <component name="RunManager" selected="Application.MultiThread">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="io" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="file" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThread" />
+      <module name="thread" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,20 +101,6 @@
     <configuration name="TestFileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestFileReader" />
       <module name="input" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestObjectOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestObjectOutputStream" />
-      <module name="input" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestOutPutStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestOutPutStream" />
-      <module name="output" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiThread" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestOutputStreamWriter" />
         <item itemvalue="Application.TestFileReader" />
-        <item itemvalue="Application.TestBufferedOutputStream" />
-        <item itemvalue="Application.TestOutPutStream" />
-        <item itemvalue="Application.TestObjectOutputStream" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +153,7 @@
       <workItem from="1679837790754" duration="682000" />
       <workItem from="1680096276142" duration="1258000" />
       <workItem from="1680598879535" duration="2891000" />
+      <workItem from="1680782077537" duration="2335000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>
