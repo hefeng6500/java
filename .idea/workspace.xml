@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29e74a6c-d1fc-4c19-a091-87d10470373d" name="Changes" comment="feat: 黑马电影阶段性项目" />
+    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: 黑马电影阶段性项目">
+      <change afterPath="$PROJECT_DIR$/thread/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/MultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/thread.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://E:/soft/java/lib/src.zip!/java.base/java/util/Calendar.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,7 +61,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.46666667&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -73,9 +76,23 @@
       <recent name="D:\java-workplace\javaSE\log\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Thread04">
+  <component name="RunManager" selected="Application.MultiThread">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="io" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="file" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThread" />
       <module name="thread" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,24 +112,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread04" />
-      <module name="thread" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadJoinExample" />
-      <module name="thread" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Thread04" />
-        <item itemvalue="Application.ThreadJoinExample" />
+        <item itemvalue="Application.MultiThread" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestOutputStreamWriter" />
         <item itemvalue="Application.TestFileReader" />
@@ -122,7 +125,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="29e74a6c-d1fc-4c19-a091-87d10470373d" name="Changes" comment="feat: 黑马电影阶段性项目" />
+      <changelist id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="" />
       <created>1666096697054</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -150,9 +153,7 @@
       <workItem from="1679837790754" duration="682000" />
       <workItem from="1680096276142" duration="1258000" />
       <workItem from="1680598879535" duration="2891000" />
-      <workItem from="1680851651300" duration="3899000" />
-      <workItem from="1680948552526" duration="24000" />
-      <workItem from="1680948587469" duration="7000" />
+      <workItem from="1680782077537" duration="2335000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>
