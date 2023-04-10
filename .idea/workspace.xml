@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: 黑马电影阶段性项目">
-      <change afterPath="$PROJECT_DIR$/thread/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/MultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/thread.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/net.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/yang/broadcast/BroadcastReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/yang/broadcast/BroadcastSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiClientMessageTcp/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiClientMessageTcp/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiClientMessageTcp/ServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiTcp/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiTcp/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multicast/MulticastReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multicast/MulticastSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/yang/tcp/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/yang/tcp/TCPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -76,49 +88,79 @@
       <recent name="D:\java-workplace\javaSE\log\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiThread">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="io" />
+  <component name="RunManager" selected="Application.com.yang.multiClientMessageTcp.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.multiTcp.Client" />
+      <module name="net" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yang.multiTcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="file" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.multiTcp.Server" />
+      <module name="net" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yang.multiTcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThread" />
-      <module name="thread" />
+    <configuration name="TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.tcp.TCPClient" />
+      <module name="net" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yang.tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestFileReader" />
-      <module name="input" />
+    <configuration name="com.yang.multiClientMessageTcp.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.multiClientMessageTcp.Client" />
+      <module name="net" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yang.multiClientMessageTcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOutputStreamWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestOutputStreamWriter" />
-      <module name="output" />
+    <configuration name="com.yang.multiClientMessageTcp.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yang.multiClientMessageTcp.Server" />
+      <module name="net" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yang.multiClientMessageTcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultiThread" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestOutputStreamWriter" />
-        <item itemvalue="Application.TestFileReader" />
+        <item itemvalue="Application.com.yang.multiClientMessageTcp.Client" />
+        <item itemvalue="Application.com.yang.multiClientMessageTcp.Server" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.TCPClient" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +196,8 @@
       <workItem from="1680096276142" duration="1258000" />
       <workItem from="1680598879535" duration="2891000" />
       <workItem from="1680782077537" duration="2335000" />
+      <workItem from="1681110984455" duration="826000" />
+      <workItem from="1681113202471" duration="4829000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>
