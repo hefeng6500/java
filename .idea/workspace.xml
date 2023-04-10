@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: 黑马电影阶段性项目">
-      <change afterPath="$PROJECT_DIR$/net/net.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/broadcast/BroadcastReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/broadcast/BroadcastSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiClientMessageTcp/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiClientMessageTcp/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiClientMessageTcp/ServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiTcp/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiTcp/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multicast/MulticastReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multicast/MulticastSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/tcp/TCPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/tcp/TCPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: 多线程">
-      <change afterPath="$PROJECT_DIR$/thread/src/ScheduledExecutorService01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/Timer01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/Timer02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/Timer03.java" afterDir="false" />
+    <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
