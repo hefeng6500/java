@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9940ffb-e2dd-4445-b551-8dff9dc4a1d1" name="Changes" comment="feat: 黑马电影阶段性项目">
-      <change afterPath="$PROJECT_DIR$/net/net.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/broadcast/BroadcastReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/broadcast/BroadcastSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiClientMessageTcp/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiClientMessageTcp/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiClientMessageTcp/ServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiTcp/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multiTcp/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multicast/MulticastReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/multicast/MulticastSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/tcp/TCPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/src/com/yang/tcp/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/jdbc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/lib/mysql-connector-j-8.0.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junit/junit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junit/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junit/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junit/src/com/yang/test/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junit/src/com/yang/test/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -58,109 +52,118 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/test-workspace/javaSE/log/src/com/yang/train&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.46666667&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "F:/java-workspace/javaSE/jdbc/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.46666667",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java-workspace\javaSE\jdbc\lib" />
+      <recent name="F:\test-workspace\javaSE\lib" />
       <recent name="F:\test-workspace\javaSE\log\src\com\yang\train" />
       <recent name="F:\test-workspace\javaSE\log\src\com\yang\bean" />
       <recent name="D:\java-workplace\javaSE\log\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\test-workspace\javaSE\junit" />
       <recent name="F:\test-workspace\javaSE\io\src" />
       <recent name="F:\test-workspace\javaSE\io\input" />
       <recent name="D:\java-workplace\javaSE\log\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.yang.multiClientMessageTcp.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yang.multiTcp.Client" />
-      <module name="net" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yang.multiTcp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="jdbc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yang.multiTcp.Server" />
-      <module name="net" />
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yang.multiTcp.*" />
+          <option name="PATTERN" value="com.yang.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yang.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yang.test.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yang.tcp.TCPClient" />
-      <module name="net" />
+    <configuration name="CalculatorTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yang.tcp.*" />
+          <option name="PATTERN" value="com.yang.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yang.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yang.test.CalculatorTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.yang.multiClientMessageTcp.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yang.multiClientMessageTcp.Client" />
-      <module name="net" />
+    <configuration name="CalculatorTest.testAdd1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yang.multiClientMessageTcp.*" />
+          <option name="PATTERN" value="com.yang.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yang.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yang.test.CalculatorTest" />
+      <option name="METHOD_NAME" value="testAdd1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.yang.multiClientMessageTcp.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yang.multiClientMessageTcp.Server" />
-      <module name="net" />
+    <configuration name="CalculatorTest.testReduce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yang.multiClientMessageTcp.*" />
+          <option name="PATTERN" value="com.yang.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yang.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yang.test.CalculatorTest" />
+      <option name="METHOD_NAME" value="testReduce" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.yang.multiClientMessageTcp.Client" />
-        <item itemvalue="Application.com.yang.multiClientMessageTcp.Server" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.TCPClient" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.testReduce" />
+        <item itemvalue="JUnit.CalculatorTest.testAdd1" />
+        <item itemvalue="JUnit.CalculatorTest.testAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +200,11 @@
       <workItem from="1680598879535" duration="2891000" />
       <workItem from="1680782077537" duration="2335000" />
       <workItem from="1681110984455" duration="826000" />
-      <workItem from="1681113202471" duration="4829000" />
+      <workItem from="1681113202471" duration="5466000" />
+      <workItem from="1681179937292" duration="4341000" />
+      <workItem from="1681268360784" duration="24000" />
+      <workItem from="1681269635047" duration="11000" />
+      <workItem from="1681289249523" duration="1409000" />
     </task>
     <task id="LOCAL-00001" summary="chore: project init">
       <created>1666096753121</created>
@@ -364,6 +371,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="chore: project init" />
     <MESSAGE value="chore: refactor name" />
     <MESSAGE value="feat: 学习一些运算符" />
