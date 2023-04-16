@@ -181,4 +181,40 @@ public class BrandTest {
     conn.close();
   }
 
+  /**
+   * 删除
+   * 1. SQL：
+   * delete from tb_brand where id = ?
+   * 2. 参数：需要，id
+   * 3. 结果：boolean
+   */
+  @Test
+  public void testDeleteById() throws Exception {
+    // 接收页面提交的参数
+    int id = 4;
+    // 1. 获取Connection
+    // 3. 加载配置文件
+    Properties prop = new Properties();
+    prop.load(new FileInputStream("src/druid.properties"));
+    // 4. 获取连接池对象
+    DataSource dataSource = DruidDataSourceFactory.createDataSource(prop);
+    // 5. 获取数据库连接 Connection
+    Connection conn = dataSource.getConnection();
+    // 2. 定义SQL
+    String sql = " delete from tb_brand where id = ?";
+    // 3. 获取pstmt对象
+    PreparedStatement pstmt = conn.prepareStatement(sql);
+    // 4. 设置参数
+    pstmt.setInt(1, id);
+    // 5. 执行SQL
+    int count = pstmt.executeUpdate(); // 影响的行数
+    // 6. 处理结果
+    System.out.println(count > 0);
+
+    // 7. 释放资源
+    pstmt.close();
+    conn.close();
+  }
+
+
 }
