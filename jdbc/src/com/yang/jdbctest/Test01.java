@@ -1,4 +1,4 @@
-package com.yang.jdbc;
+package com.yang.jdbctest;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
