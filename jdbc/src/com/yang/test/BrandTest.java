@@ -73,4 +73,47 @@ public class BrandTest {
     conn.close();
   }
 
+  /**
+   * 添加
+   * 1. SQL：insert into tb_brand(brand_name, company_name, ordered, description, status) values(?,?,?,?,?);
+   * 2. 参数：需要，除了id之外的所有参数信息
+   * 3. 结果：boolean
+   */
+  @Test
+  public void testAdd() throws Exception {
+    // 接收页面提交的参数
+    String brandName = "香飘飘";
+    String companyName = "香飘飘";
+    int ordered = 1;
+    String description = "绕地球一圈";
+    int status = 1;
+
+    // 1. 获取Connection
+    // 3. 加载配置文件
+    Properties prop = new Properties();
+    prop.load(new FileInputStream("src/druid.properties"));
+    // 4. 获取连接池对象
+    DataSource dataSource = DruidDataSourceFactory.createDataSource(prop);
+    // 5. 获取数据库连接 Connection
+    Connection conn = dataSource.getConnection();
+    // 2. 定义SQL
+    String sql = "insert into tb_brand(brand_name, company_name, ordered, description, status) values(?,?,?,?,?);";
+    // 3. 获取pstmt对象
+    PreparedStatement pstmt = conn.prepareStatement(sql);
+    // 4. 设置参数
+    pstmt.setString(1, brandName);
+    pstmt.setString(2, companyName);
+    pstmt.setInt(3, ordered);
+    pstmt.setString(4, description);
+    pstmt.setInt(5, status);
+
+    // 5. 执行SQL
+    int count = pstmt.executeUpdate(); // 影响的行数
+    // 6. 处理结果
+    System.out.println(count > 0);
+
+    // 7. 释放资源
+    pstmt.close();
+    conn.close();
+  }
 }
