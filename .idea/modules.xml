@@ -13,7 +13,6 @@
       <module fileurl="file://$PROJECT_DIR$/function/function.iml" filepath="$PROJECT_DIR$/function/function.iml" />
       <module fileurl="file://$PROJECT_DIR$/io/input/input.iml" filepath="$PROJECT_DIR$/io/input/input.iml" />
       <module fileurl="file://$PROJECT_DIR$/io/io.iml" filepath="$PROJECT_DIR$/io/io.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javaSE.iml" filepath="$PROJECT_DIR$/javaSE.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/junit/junit.iml" filepath="$PROJECT_DIR$/junit/junit.iml" />
       <module fileurl="file://$PROJECT_DIR$/log/log.iml" filepath="$PROJECT_DIR$/log/log.iml" />

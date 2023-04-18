@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-demo" />
         <module name="maven" />
+        <module name="mybatis-train" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
