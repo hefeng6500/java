@@ -36,6 +36,9 @@
     </environments>
     <mappers>
         <!--加载sql映射文件-->
-        <mapper resource="UserMapper.xml"/>
+        <!--<mapper resource="org/example/mapper/UserMapper.xml"/>-->
+
+        <!--如果Mapper接口名称和SQL映射文件名称相同，并在同一目录下，则可以使用包扫描的方式简化SQL映射文件的加载。-->
+        <package name="org.example.mapper"/>
     </mappers>
 </configuration>
