@@ -27,7 +27,10 @@ public class MybatisDemoByMapper {
     UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
     List<User> users = userMapper.selectAll();
 
+    User user = userMapper.selectById(1);
+
     System.out.println(users);
+    System.out.println(user);
 
     //4. 释放资源
     sqlSession.close();
