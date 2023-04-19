@@ -4,8 +4,58 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="org.example.mapper.BrandMapper">
-    <select id="selectAll" resultType="brand">
+    <!--1. 数据库下划线字段和 Brand 类定义的字段对不上，导致查询出来的 List 集合存储的对象值不完整-->
+    <!--<select id="selectAll" resultType="brand">-->
+    <!--    select *-->
+    <!--    from tb_brand;-->
+    <!--</select>-->
+
+    <!--2. 使用 as 语法可以解决 1 中的问题-->
+    <!--<select id="selectAll" resultType="brand">-->
+    <!--    select-->
+    <!--        id, brand_name as brandName, company_name as companyName, ordered, description, status-->
+    <!--    from tb_brand;-->
+    <!--</select>-->
+
+    <!--3. 和 2 差不多，只是将 as 语法提出来作为单独的 sql 语法，然后引入片段-->
+    <!--<sql id="brand_column">-->
+    <!--    id, brand_name as brandName, company_name as companyName, ordered, description, status-->
+    <!--</sql>-->
+
+    <!--<select id="selectAll" resultType="brand">-->
+    <!--    select-->
+    <!--    <include refid="brand_column" />-->
+    <!--    from tb_brand;-->
+    <!--</select>-->
+
+    <!--4. resultMap： resultMap 完成不一致的属性名和列名的映射-->
+    <resultMap id="brandResultMap" type="brand">
+        <!--
+                id：完成主键字段的映射
+                    column：表的列名
+                    property：实体类的属性名
+                result：完成一般字段的映射
+                    column：表的列名
+                    property：实体类的属性名
+            -->
+        <result column="brand_name" property="brandName"/>
+        <result column="company_name" property="companyName"/>
+    </resultMap>
+
+    <select id="selectAll" resultMap="brandResultMap">
         select *
         from tb_brand;
+    </select>
+    <select id="selectById"  resultMap="brandResultMap">
+        select *
+        from tb_brand
+        where id = #{id};
+    </select>
+    <select id="selectByCondition" resultMap="brandResultMap">
+        select *
+        from tb_brand
+        where status = #{status}
+          and company_name like #{companyName}
+          and brand_name like #{brandName}
     </select>
 </mapper>

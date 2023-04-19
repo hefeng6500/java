@@ -62,4 +62,16 @@ public class Brand {
   public void setStatus(Integer status) {
     this.status = status;
   }
+
+  @Override
+  public String toString() {
+    return "Brand{" +
+            "id=" + id +
+            ", brandName='" + brandName + '\'' +
+            ", companyName='" + companyName + '\'' +
+            ", ordered=" + ordered +
+            ", description='" + description + '\'' +
+            ", status=" + status +
+            '}';
+  }
 }
