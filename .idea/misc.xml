@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/mabatis-instance/pom.xml" />
         <option value="$PROJECT_DIR$/servlet/pom.xml" />
         <option value="$PROJECT_DIR$/tomcat-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/servlet-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
