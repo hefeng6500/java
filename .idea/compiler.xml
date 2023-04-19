@@ -6,17 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mybatis-demo" />
-        <module name="mybatis-train" />
         <module name="mabatis-instance" />
         <module name="tomcat-demo" />
-        <module name="servlet-demo" />
         <module name="maven" />
+        <module name="servlet" />
+        <module name="jsp-demo" />
+        <module name="mybatis-demo" />
+        <module name="servlet-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
-      <module name="mabatis-train01" target="18" />
-      <module name="servlet" target="18" />
+      <module name="jsp" target="18" />
+      <module name="mybatis-train" target="18" />
     </bytecodeTargetLevel>
   </component>
 </project>
