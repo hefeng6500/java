@@ -20,5 +20,13 @@ public interface BrandMapper {
 
   List<Brand> selectByCondition(Map map);
 
+  /**
+   * 单条件动态查询
+   * @param brand
+   * @return
+   */
+  List<Brand> selectByConditionSingle(Brand brand);
+
+
 
 }
