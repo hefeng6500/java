@@ -9,10 +9,13 @@
         <option value="$PROJECT_DIR$/../mybatis-train/pom.xml" />
         <option value="$PROJECT_DIR$/../mabatis-train01/pom.xml" />
         <option value="$PROJECT_DIR$/mabatis-instance/pom.xml" />
+        <option value="$PROJECT_DIR$/servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/tomcat-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/servlet/pom.xml" />
         <option value="$PROJECT_DIR$/../mabatis-train01/pom.xml" />
       </set>
     </option>
