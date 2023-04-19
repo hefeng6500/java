@@ -15,9 +15,6 @@
         <module name="servlet-demo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11">
-      <module name="jsp" target="18" />
-      <module name="mybatis-train" target="18" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="20" />
   </component>
 </project>
