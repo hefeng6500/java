@@ -98,9 +98,9 @@ public class MyBatisTest {
 
     // 方式三 ：接口方法参数是 map集合对象 方式调用的方法
     Map map = new HashMap();
-    map.put("status" , status);
+    map.put("status", status);
     map.put("companyName", companyName);
-    map.put("brandName" , brandName);
+    map.put("brandName", brandName);
 
     // System.out.println(brands);
     List<Brand> brands = brandMapper.selectByCondition(map);
@@ -111,7 +111,7 @@ public class MyBatisTest {
 
   @Test
   public void testSelectByConditionSingle() throws IOException {
-    //接收参数
+    // 接收参数
     int status = 1;
     String companyName = "华为";
     String brandName = "华为";
@@ -120,38 +120,38 @@ public class MyBatisTest {
     companyName = "%" + companyName + "%";
     brandName = "%" + brandName + "%";
 
-    //封装对象
+    // 封装对象
     Brand brand = new Brand();
-    //brand.setStatus(status);
+    // brand.setStatus(status);
     brand.setCompanyName(companyName);
-    //brand.setBrandName(brandName);
+    // brand.setBrandName(brandName);
 
-    //1. 获取SqlSessionFactory
+    // 1. 获取SqlSessionFactory
     String resource = "mybatis-config.xml";
     InputStream inputStream = Resources.getResourceAsStream(resource);
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-    //2. 获取SqlSession对象
+    // 2. 获取SqlSession对象
     SqlSession sqlSession = sqlSessionFactory.openSession();
-    //3. 获取Mapper接口的代理对象
+    // 3. 获取Mapper接口的代理对象
     BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
-    //4. 执行方法
+    // 4. 执行方法
     List<Brand> brands = brandMapper.selectByConditionSingle(brand);
     System.out.println(brands);
 
-    //5. 释放资源
+    // 5. 释放资源
     sqlSession.close();
   }
 
   @Test
   public void testAdd() throws IOException {
-    //接收参数
+    // 接收参数
     int status = 1;
     String companyName = "波导手机";
     String brandName = "波导";
     String description = "手机中的战斗机";
     int ordered = 100;
 
-    //封装对象
+    // 封装对象
     Brand brand = new Brand();
     brand.setStatus(status);
     brand.setCompanyName(companyName);
@@ -159,29 +159,29 @@ public class MyBatisTest {
     brand.setDescription(description);
     brand.setOrdered(ordered);
 
-    //1. 获取SqlSessionFactory
+    // 1. 获取SqlSessionFactory
     String resource = "mybatis-config.xml";
     InputStream inputStream = Resources.getResourceAsStream(resource);
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-    //2. 获取SqlSession对象
+    // 2. 获取SqlSession对象
     SqlSession sqlSession = sqlSessionFactory.openSession();
-    //SqlSession sqlSession = sqlSessionFactory.openSession(true); //设置自动提交事务，这种情况不需要手动提交事务了
-    //3. 获取Mapper接口的代理对象
+    // SqlSession sqlSession = sqlSessionFactory.openSession(true); //设置自动提交事务，这种情况不需要手动提交事务了
+    // 3. 获取Mapper接口的代理对象
     BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
-    //4. 执行方法
+    // 4. 执行方法
     brandMapper.add(brand);
 
     System.out.println(brand.getId());
 
-    //提交事务
+    // 提交事务
     sqlSession.commit();
-    //5. 释放资源
+    // 5. 释放资源
     sqlSession.close();
   }
 
   @Test
   public void testUpdate() throws IOException {
-    //接收参数
+    // 接收参数
     int status = 0;
     String companyName = "波导手机";
     String brandName = "波导";
@@ -189,83 +189,80 @@ public class MyBatisTest {
     int ordered = 200;
     int id = 6;
 
-    //封装对象
+    // 封装对象
     Brand brand = new Brand();
     brand.setStatus(status);
-           brand.setCompanyName(companyName);
-           brand.setBrandName(brandName);
-           brand.setDescription(description);
-           brand.setOrdered(ordered);
+    brand.setCompanyName(companyName);
+    brand.setBrandName(brandName);
+    brand.setDescription(description);
+    brand.setOrdered(ordered);
     brand.setId(id);
 
-    //1. 获取SqlSessionFactory
+    // 1. 获取SqlSessionFactory
     String resource = "mybatis-config.xml";
     InputStream inputStream = Resources.getResourceAsStream(resource);
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-    //2. 获取SqlSession对象
+    // 2. 获取SqlSession对象
     SqlSession sqlSession = sqlSessionFactory.openSession();
-    //SqlSession sqlSession = sqlSessionFactory.openSession(true);
-    //3. 获取Mapper接口的代理对象
+    // SqlSession sqlSession = sqlSessionFactory.openSession(true);
+    // 3. 获取Mapper接口的代理对象
     BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
 
-    //4. 执行方法
+    // 4. 执行方法
     int count = brandMapper.update(brand);
 
     System.out.println(count);
-    //提交事务
+    // 提交事务
     sqlSession.commit();
-    //5. 释放资源
+    // 5. 释放资源
     sqlSession.close();
   }
 
   @Test
   public void testDeleteById() throws IOException {
-    //接收参数
+    // 接收参数
     int id = 6;
 
-    //1. 获取SqlSessionFactory
+    // 1. 获取SqlSessionFactory
     String resource = "mybatis-config.xml";
     InputStream inputStream = Resources.getResourceAsStream(resource);
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-    //2. 获取SqlSession对象
+    // 2. 获取SqlSession对象
     SqlSession sqlSession = sqlSessionFactory.openSession();
-    //SqlSession sqlSession = sqlSessionFactory.openSession(true);
-    //3. 获取Mapper接口的代理对象
+    // SqlSession sqlSession = sqlSessionFactory.openSession(true);
+    // 3. 获取Mapper接口的代理对象
     BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
-    //4. 执行方法
+    // 4. 执行方法
     brandMapper.deleteById(id);
-    //提交事务
+    // 提交事务
     sqlSession.commit();
-    //5. 释放资源
+    // 5. 释放资源
     sqlSession.close();
   }
 
   @Test
   public void testDeleteByIds() throws IOException {
-    //接收参数
-    int[] ids = {5,7,8};
+    // 接收参数
+    int[] ids = {5, 7, 8};
 
-    //1. 获取SqlSessionFactory
+    // 1. 获取SqlSessionFactory
     String resource = "mybatis-config.xml";
     InputStream inputStream = Resources.getResourceAsStream(resource);
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-    //2. 获取SqlSession对象
+    // 2. 获取SqlSession对象
     SqlSession sqlSession = sqlSessionFactory.openSession();
-    //SqlSession sqlSession = sqlSessionFactory.openSession(true);
-    //3. 获取Mapper接口的代理对象
+    // SqlSession sqlSession = sqlSessionFactory.openSession(true);
+    // 3. 获取Mapper接口的代理对象
     BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
-    //4. 执行方法
+    // 4. 执行方法
     int count = brandMapper.deleteByIds(ids);
 
     System.out.println(count);
-    //提交事务
+    // 提交事务
     sqlSession.commit();
-    //5. 释放资源
+    // 5. 释放资源
     sqlSession.close();
   }
-
-
-
 
 
 }

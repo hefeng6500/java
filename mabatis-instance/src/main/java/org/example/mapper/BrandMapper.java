@@ -1,6 +1,7 @@
 package org.example.mapper;
 
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
 import org.example.pojo.Brand;
 
 import java.util.List;
@@ -12,6 +13,7 @@ public interface BrandMapper {
    */
   List<Brand> selectAll();
 
+  @Select("select * from tb_user where id = #{id}")
   Brand selectById(int id);
 
   // List<Brand> selectByCondition(@Param("status") int status, @Param("companyName") String companyName,@Param("brandName") String brandName);

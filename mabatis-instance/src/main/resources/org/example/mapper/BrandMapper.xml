@@ -46,11 +46,11 @@
         select *
         from tb_brand;
     </select>
-    <select id="selectById"  resultMap="brandResultMap">
-        select *
-        from tb_brand
-        where id = #{id};
-    </select>
+    <!--<select id="selectById"  resultMap="brandResultMap">-->
+    <!--    select *-->
+    <!--    from tb_brand-->
+    <!--    where id = #{id};-->
+    <!--</select>-->
     <select id="selectByCondition" resultMap="brandResultMap">
         select *
         from tb_brand
