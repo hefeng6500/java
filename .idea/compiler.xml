@@ -10,6 +10,7 @@
         <module name="jsp-instance" />
         <module name="mabatis-instance" />
         <module name="tomcat-demo" />
+        <module name="spring-ioc" />
         <module name="maven" />
         <module name="servlet" />
         <module name="jsp-demo" />

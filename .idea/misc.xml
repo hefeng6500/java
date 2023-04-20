@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/jsp-instance/pom.xml" />
         <option value="$PROJECT_DIR$/brand-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-ioc/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
