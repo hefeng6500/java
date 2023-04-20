@@ -5,7 +5,7 @@
 <configuration>
 
     <typeAliases>
-        <package name="org.example.pojo"/>
+        <package name="org.yang.pojo"/>
     </typeAliases>
 
     <!--
@@ -39,6 +39,6 @@
         <!--<mapper resource="org/example/mapper/UserMapper.xml"/>-->
 
         <!--如果Mapper接口名称和SQL映射文件名称相同，并在同一目录下，则可以使用包扫描的方式简化SQL映射文件的加载。-->
-        <package name="org.example.mapper"/>
+        <package name="org.yang.mapper"/>
     </mappers>
 </configuration>
