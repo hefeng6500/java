@@ -17,7 +17,11 @@ public class AppForInstanceUser {
     ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 
     UserDao userDao = (UserDao) ctx.getBean("userDao");
+    UserDao userDao2 = (UserDao) ctx.getBean("userDao");
 
     userDao.save();
+
+    System.out.println(userDao);
+    System.out.println(userDao2);
   }
 }
