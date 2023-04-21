@@ -10,8 +10,8 @@ public class App {
     // 获取IOC容器
     ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-    BookDao bookDao = (BookDao) ctx.getBean("bookDao");
-    bookDao.save();
+    // BookDao bookDao = (BookDao) ctx.getBean("bookDao");
+    // bookDao.save();
 
     BookService bookService = (BookService) ctx.getBean("bookService");
     bookService.save();
