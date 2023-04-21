@@ -7,13 +7,17 @@
     	id属性标示给bean起名字
     	class属性表示给bean定义类型
 	-->
-    <bean id="bookDao" class="org.example.dao.impl.BookDaoImpl"/>
-    <bean id="bookService" class="org.example.service.impl.BookServiceImpl">
+    <!--scope：为bean设置作用范围，可选值为单例singloton，非单例prototype-->
+    <bean id="bookDao" name="dao" class="org.example.dao.impl.BookDaoImpl" scope="prototype"/>
+
+    <!--name:为 bean 指定别名，别名可以有多个，使用逗号，分号，空格进行分隔-->
+    <bean id="bookService" name="service service4 bookEbi" class="org.example.service.impl.BookServiceImpl">
         <!--配置server与dao的关系-->
-        <!--property标签表示配置当前bean的属性
+        <!-- property标签表示配置当前bean的属性
         		name属性表示配置哪一个具体的属性
         		ref属性表示参照哪一个bean
 		-->
+       <!-- ref: 值被引用的 bean 的 id 或者 name，推荐使用 id -->
         <property name="bookDao" ref="bookDao"/>
     </bean>
 
