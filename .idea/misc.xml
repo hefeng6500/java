@@ -18,11 +18,15 @@
         <option value="$PROJECT_DIR$/spring-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-ioc/pom.xml" />
         <option value="$PROJECT_DIR$/spring-ioc-auto/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-third-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/junit/spring-third-bean/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/junit/spring-third-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-third-bean/pom.xml" />
         <option value="$PROJECT_DIR$/../mybatis-train/pom.xml" />
       </set>
     </option>
