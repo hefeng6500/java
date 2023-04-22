@@ -1,12 +1,19 @@
 package org.example.dao.impl;
 
 import org.example.dao.BookDao;
+import org.example.service.impl.BookServiceImpl;
 
 public class BookDaoImpl implements BookDao {
 
   private String databaseName;
-
   private int connectionNum;
+
+  // 构造器注入多个简单数据类型
+  // 添加多个简单属性并提供构造方法
+  public BookDaoImpl(String databaseName, int connectionNum) {
+    this.connectionNum = connectionNum;
+    this.databaseName = databaseName;
+  }
 
   public void setDatabaseName(String databaseName) {
     this.databaseName = databaseName;

@@ -12,8 +12,10 @@
     <!--       destroy-method="destory"/> -->
 
     <bean id="bookDao" class="org.example.dao.impl.BookDaoImpl">
-        <property name="databaseName" value="mysql"></property>
-        <property name="connectionNum" value="10"></property>
+        <!-- <property name="databaseName" value="mysql"></property> -->
+        <!-- <property name="connectionNum" value="10"></property> -->
+        <constructor-arg name="connectionNum" value="10"></constructor-arg>
+        <constructor-arg name="databaseName" value="mysql"></constructor-arg>
     </bean>
 
     <!--name:为 bean 指定别名，别名可以有多个，使用逗号，分号，空格进行分隔-->
