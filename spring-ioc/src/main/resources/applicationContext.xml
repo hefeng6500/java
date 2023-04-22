@@ -8,7 +8,13 @@
     	class属性表示给bean定义类型
 	-->
     <!--scope：为bean设置作用范围，可选值为单例singloton，非单例prototype-->
-    <bean id="bookDao" name="dao" class="org.example.dao.impl.BookDaoImpl" scope="prototype"/>
+    <!-- <bean id="bookDao" name="dao" class="org.example.dao.impl.BookDaoImpl" scope="singleton" init-method="init" -->
+    <!--       destroy-method="destory"/> -->
+
+    <bean id="bookDao" class="org.example.dao.impl.BookDaoImpl">
+        <property name="databaseName" value="mysql"></property>
+        <property name="connectionNum" value="10"></property>
+    </bean>
 
     <!--name:为 bean 指定别名，别名可以有多个，使用逗号，分号，空格进行分隔-->
     <bean id="bookService" name="service service4 bookEbi" class="org.example.service.impl.BookServiceImpl">
