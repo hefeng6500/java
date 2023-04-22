@@ -14,8 +14,16 @@
     <bean id="bookDao" class="org.example.dao.impl.BookDaoImpl">
         <!-- <property name="databaseName" value="mysql"></property> -->
         <!-- <property name="connectionNum" value="10"></property> -->
-        <constructor-arg name="connectionNum" value="10"></constructor-arg>
-        <constructor-arg name="databaseName" value="mysql"></constructor-arg>
+        <!-- <constructor-arg name="connectionNum" value="10"></constructor-arg> -->
+        <!-- <constructor-arg name="databaseName" value="mysql"></constructor-arg> -->
+
+        <!-- 解决构造函数形参名发生变化带来的耦合问题， 是如果构造方法参数中有类型相同的参数，这种方式就不太好实现了-->
+        <!-- <constructor-arg type="int" value="10"/> -->
+        <!-- <constructor-arg type="java.lang.String" value="mysql"/> -->
+
+        <!-- 这种方式可以解决参数类型重复问题,但是如果构造方法参数顺序发生变化后，这种方式又带来了耦合问题 -->
+        <constructor-arg index="0" value="mysql"/>
+        <constructor-arg index="1" value="100"/>
     </bean>
 
     <!--name:为 bean 指定别名，别名可以有多个，使用逗号，分号，空格进行分隔-->
