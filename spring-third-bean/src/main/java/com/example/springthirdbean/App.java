@@ -5,6 +5,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import javax.sql.DataSource;
+import java.util.Map;
 
 public class App {
   public static void main(String[] args) {
@@ -15,5 +16,8 @@ public class App {
 
     BookDao bookDao = (BookDao) ctx.getBean("bookDao");
     bookDao.save();
+
+    // Map<String, String> env = System.getenv();
+    // System.out.println(env);
   }
 }

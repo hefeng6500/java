@@ -14,7 +14,7 @@
     <!--     <property name="password" value="123456"/> -->
     <!-- </bean> -->
 
-    <context:property-placeholder location="jdbc.properties"/>
+    <context:property-placeholder location="jdbc.properties" system-properties-mode="NEVER" />
 
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="${jdbc.driver}"/>
@@ -25,7 +25,8 @@
     </bean>
 
     <bean id="bookDao" class="com.example.dao.impl.BookDaoImpl">
-        <property name="name" value="${jdbc.driver}"></property>
+        <!-- <property name="name" value="${jdbc.driver}"></property> -->
+        <property name="name" value="${username}"/>
     </bean>
 
 </beans>
