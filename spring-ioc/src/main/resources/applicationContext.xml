@@ -27,6 +27,7 @@
         <!-- <property name="bookDao" ref="bookDao"/> -->
 
         <constructor-arg name="bookDao" ref="bookDao"></constructor-arg>
+        <constructor-arg name="userDao" ref="userDao"></constructor-arg>
     </bean>
 
     <bean id="orderDao" class="org.example.factory.OrderDaoFactory" factory-method="getOrderDao"/>

@@ -1,6 +1,7 @@
 package org.example.service.impl;
 
 import org.example.dao.BookDao;
+import org.example.dao.UserDao;
 import org.example.dao.impl.BookDaoImpl;
 import org.example.service.BookService;
 import org.springframework.beans.factory.DisposableBean;
@@ -11,10 +12,12 @@ public class BookServiceImpl implements BookService, InitializingBean, Disposabl
 
   // private BookDao bookDao = new BookDaoImpl();
   private BookDao bookDao;
+  private UserDao userDao;
 
   // 构造器注入
-  public BookServiceImpl(BookDao bookDao){
+  public BookServiceImpl(BookDao bookDao, UserDao userDao){
     this.bookDao = bookDao;
+    this.userDao = userDao;
   }
 
   // 提供对应的set方法
@@ -26,6 +29,7 @@ public class BookServiceImpl implements BookService, InitializingBean, Disposabl
   public void save() {
     System.out.println("book service save ...");
     bookDao.save();
+    userDao.save();
   }
 
   @Override
