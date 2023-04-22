@@ -24,7 +24,9 @@
         		ref属性表示参照哪一个bean
 		-->
         <!-- ref: 值被引用的 bean 的 id 或者 name，推荐使用 id -->
-        <property name="bookDao" ref="bookDao"/>
+        <!-- <property name="bookDao" ref="bookDao"/> -->
+
+        <constructor-arg name="bookDao" ref="bookDao"></constructor-arg>
     </bean>
 
     <bean id="orderDao" class="org.example.factory.OrderDaoFactory" factory-method="getOrderDao"/>

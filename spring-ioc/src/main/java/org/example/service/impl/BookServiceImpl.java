@@ -7,8 +7,15 @@ import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 
 public class BookServiceImpl implements BookService, InitializingBean, DisposableBean {
+
+
   // private BookDao bookDao = new BookDaoImpl();
   private BookDao bookDao;
+
+  // 构造器注入
+  public BookServiceImpl(BookDao bookDao){
+    this.bookDao = bookDao;
+  }
 
   // 提供对应的set方法
   public void setBookDao(BookDao bookDao) {
