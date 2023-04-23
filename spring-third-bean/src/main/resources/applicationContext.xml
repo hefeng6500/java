@@ -14,7 +14,19 @@
     <!--     <property name="password" value="123456"/> -->
     <!-- </bean> -->
 
-    <context:property-placeholder location="jdbc.properties" system-properties-mode="NEVER" />
+    <context:property-placeholder location="jdbc.properties" system-properties-mode="NEVER"/>
+    <!-- <context:property-placeholder location="D:\java-workplace\Java\spring-third-bean\src\main\resources\jdbc.properties" system-properties-mode="NEVER"/> -->
+
+    <!--方式一 -->
+    <!-- <context:property-placeholder location="jdbc.properties,jdbc2.properties" system-properties-mode="NEVER"/> -->
+    <!--方式二-->
+    <!-- <context:property-placeholder location="*.properties" system-properties-mode="NEVER"/> -->
+    <!--方式三 -->
+    <!-- 标准的写法，classpath:代表的是从根路径下开始查找，但是只能查询当前项目的根路径 -->
+    <!-- <context:property-placeholder location="classpath:*.properties" system-properties-mode="NEVER"/> -->
+    <!--方式四-->
+    <!-- 标准的写法，classpath:代表的是从根路径下开始查找，但是只能查询当前项目的根路径 -->
+    <!-- <context:property-placeholder location="classpath*:*.properties" system-properties-mode="NEVER"/> -->
 
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="${jdbc.driver}"/>

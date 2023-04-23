@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/spring-ioc-auto/pom.xml" />
         <option value="$PROJECT_DIR$/spring-third-bean/pom.xml" />
         <option value="$PROJECT_DIR$/junit/spring-third-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-annotation/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
