@@ -13,6 +13,7 @@
         <module name="maven" />
         <module name="servlet" />
         <module name="spring-demo" />
+        <module name="spring-pure-annotation" />
         <module name="jsp-instance" />
         <module name="spring-ioc-auto" />
         <module name="jsp-demo" />
@@ -29,6 +30,7 @@
       <module name="spring-annotation" options="-parameters" />
       <module name="spring-demo" options="-parameters" />
       <module name="spring-ioc-auto" options="-parameters" />
+      <module name="spring-pure-annotation" options="-parameters" />
       <module name="spring-third-bean" options="-parameters" />
     </option>
   </component>

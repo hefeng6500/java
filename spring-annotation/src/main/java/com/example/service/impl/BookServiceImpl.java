@@ -2,7 +2,9 @@ package com.example.service.impl;
 
 import com.example.dao.BookDao;
 import com.example.service.BookService;
+import org.springframework.stereotype.Component;
 
+@Component
 public class BookServiceImpl implements BookService {
   private BookDao bookDao;
 
