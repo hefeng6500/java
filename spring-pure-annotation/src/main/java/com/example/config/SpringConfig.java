@@ -7,7 +7,6 @@ import javax.sql.DataSource;
 
 @Configuration
 // @ComponentScan("com.example.config")
-@PropertySource("jdbc.properties")
 @Import({JdbcConfig.class})
 public class SpringConfig {
 
