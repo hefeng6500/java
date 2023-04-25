@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
-@Repository
+@Repository("bookDao")
 // @Scope("prototype")
 public class BookDaoImpl implements BookDao {
   public void save() {
