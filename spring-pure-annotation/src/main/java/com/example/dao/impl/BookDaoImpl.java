@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 // @Scope("prototype")
 public class BookDaoImpl implements BookDao {
 
-  @Value("HeFeng-Lab")
+  @Value("${name}")
   private String name;
 
   public void save() {
