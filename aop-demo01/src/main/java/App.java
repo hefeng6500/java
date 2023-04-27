@@ -9,8 +9,6 @@ public class App {
 
     BookDao bookDao = ctx.getBean(BookDao.class);
     bookDao.save();
-    bookDao.delete();
-    bookDao.select();
     bookDao.update();
   }
 }
