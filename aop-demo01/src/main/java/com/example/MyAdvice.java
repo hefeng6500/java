@@ -24,14 +24,19 @@ public class MyAdvice {
     System.out.println("after advice ...");
   }
 
-  @Around("pt()")
-  public void around(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
+  @Pointcut("execution(int com.example.dao.BookDao.select())")
+  private void pt2(){}
+
+  @Around("pt2()")
+  public Object around(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
     System.out.println("around before advice ...");
 
     // 表示对原始操作的调用
-    proceedingJoinPoint.proceed();
+    Object obj = proceedingJoinPoint.proceed();
 
     System.out.println("around after advice ...");
+
+    return obj;
   }
 
   public void afterReturning() {

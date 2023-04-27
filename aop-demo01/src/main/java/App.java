@@ -10,5 +10,7 @@ public class App {
     BookDao bookDao = ctx.getBean(BookDao.class);
     bookDao.save();
     bookDao.update();
+    int a = bookDao.select();
+    System.out.println(a);
   }
 }
