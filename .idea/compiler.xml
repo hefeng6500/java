@@ -12,6 +12,7 @@
         <module name="spring-ioc" />
         <module name="maven" />
         <module name="servlet" />
+        <module name="aop-demo01" />
         <module name="spring-demo" />
         <module name="spring-pure-annotation" />
         <module name="spring-integrate-train" />
@@ -28,6 +29,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aop-demo01" options="-parameters" />
       <module name="spring-annotation" options="-parameters" />
       <module name="spring-demo" options="-parameters" />
       <module name="spring-integrate-train" options="-parameters" />
