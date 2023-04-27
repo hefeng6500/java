@@ -14,6 +14,9 @@ public class MyAdvice {
   private void pt() {
   }
 
+  @Pointcut("execution(int com.example.dao.BookDao.select())")
+  private void pt2(){}
+
   @Before("pt()")
   public void before() {
     System.out.println("before advice ...");
@@ -24,8 +27,6 @@ public class MyAdvice {
     System.out.println("after advice ...");
   }
 
-  @Pointcut("execution(int com.example.dao.BookDao.select())")
-  private void pt2(){}
 
   @Around("pt2()")
   public Object around(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
@@ -39,10 +40,12 @@ public class MyAdvice {
     return obj;
   }
 
+  @AfterReturning("pt2()")
   public void afterReturning() {
     System.out.println("afterReturning advice ...");
   }
 
+  @AfterThrowing("pt2()")
   public void afterThrowing() {
     System.out.println("afterThrowing advice ...");
   }

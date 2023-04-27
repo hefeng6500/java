@@ -8,8 +8,8 @@ public class App {
     ApplicationContext ctx = new AnnotationConfigApplicationContext(SpringConfig.class);
 
     BookDao bookDao = ctx.getBean(BookDao.class);
-    bookDao.save();
-    bookDao.update();
+    // bookDao.save();
+    // bookDao.update();
     int a = bookDao.select();
     System.out.println(a);
   }
