@@ -18,7 +18,8 @@ public class BookDaoImpl implements BookDao {
     System.out.println("book dao delete ...");
   }
 
-  public void select() {
-    System.out.println("book dao select ...");
+  public int select() {
+    System.out.println("book dao select is running ...");
+    return 100;
   }
 }
