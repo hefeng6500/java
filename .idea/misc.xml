@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/spring-pure-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/spring-integrate-train/pom.xml" />
         <option value="$PROJECT_DIR$/aop-demo01/pom.xml" />
+        <option value="$PROJECT_DIR$/aop-demo02/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

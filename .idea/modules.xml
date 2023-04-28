@@ -19,9 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/net/net.iml" filepath="$PROJECT_DIR$/net/net.iml" />
       <module fileurl="file://$PROJECT_DIR$/object/object.iml" filepath="$PROJECT_DIR$/object/object.iml" />
       <module fileurl="file://$PROJECT_DIR$/io/output/output.iml" filepath="$PROJECT_DIR$/io/output/output.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-annotation/spring-annotation.iml" filepath="$PROJECT_DIR$/spring-annotation/spring-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-ioc.iml" filepath="$PROJECT_DIR$/spring-ioc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-ioc-auto/spring-ioc-auto.iml" filepath="$PROJECT_DIR$/spring-ioc-auto/spring-ioc-auto.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-third-bean/spring-third-bean.iml" filepath="$PROJECT_DIR$/spring-third-bean/spring-third-bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/string/string.iml" filepath="$PROJECT_DIR$/string/string.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
