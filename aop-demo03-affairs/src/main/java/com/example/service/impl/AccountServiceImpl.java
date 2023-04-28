@@ -20,12 +20,12 @@ public class AccountServiceImpl implements AccountService {
 
 
   @Transactional(rollbackFor = {IOException.class})
-  public void transfer(String out,String in ,Double money)  {
+  public void transfer(String out,String in ,Double money) throws IOException {
     accountDao.outMoney(out,money);
-
 
     try{
       accountDao.outMoney(out,money);
+      int a = 1/0;
       accountDao.inMoney(in,money);
     }finally {
       logService.log(out,in,money);
