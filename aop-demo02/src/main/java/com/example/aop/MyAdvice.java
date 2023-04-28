@@ -35,9 +35,9 @@ public class MyAdvice {
 
     return ret;
   }
-  @AfterReturning("pt()")
-  public void afterReturning() {
-    System.out.println("afterReturning advice ...");
+  @AfterReturning(value = "pt()", returning = "ret")
+  public void afterReturning(Object ret) {
+    System.out.println("afterReturning advice ..." + ret);
   }
 
 
