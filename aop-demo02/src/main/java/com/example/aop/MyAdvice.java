@@ -29,7 +29,10 @@ public class MyAdvice {
 
   @Around("pt()")
   public Object around(ProceedingJoinPoint pjp) throws Throwable{
-    Object ret = pjp.proceed();
+    Object[] args = pjp.getArgs();
+    args[0] = 666;
+    Object ret = pjp.proceed(args);
+
     return ret;
   }
   @AfterReturning("pt()")
