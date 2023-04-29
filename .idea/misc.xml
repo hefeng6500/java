@@ -24,13 +24,12 @@
         <option value="$PROJECT_DIR$/spring-pure-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/spring-integrate-train/pom.xml" />
         <option value="$PROJECT_DIR$/aop-demo01/pom.xml" />
-        <option value="$PROJECT_DIR$/springmvc/pom.xml" />
-        <option value="$PROJECT_DIR$/springmvc-demo02/pom.xml" />
+        <option value="$PROJECT_DIR$/aop-demo02/pom.xml" />
+        <option value="$PROJECT_DIR$/aop-demo03-affairs/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/springmvc/pom.xml" />
         <option value="$PROJECT_DIR$/jsp/pom.xml" />
         <option value="$PROJECT_DIR$/junit/spring-third-bean/pom.xml" />
         <option value="$PROJECT_DIR$/spring-third-bean/pom.xml" />

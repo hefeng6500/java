@@ -14,11 +14,13 @@
         <module name="servlet" />
         <module name="springmvc-demo02" />
         <module name="aop-demo01" />
+        <module name="aop-demo03-affairs" />
         <module name="spring-demo" />
         <module name="spring-pure-annotation" />
         <module name="spring-integrate-train" />
         <module name="jsp-instance" />
         <module name="spring-ioc-auto" />
+        <module name="aop-demo02" />
         <module name="jsp-demo" />
         <module name="mybatis-demo" />
         <module name="spring-annotation" />
@@ -31,6 +33,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="aop-demo01" options="-parameters" />
+      <module name="aop-demo02" options="-parameters" />
+      <module name="aop-demo03-affairs" options="-parameters" />
       <module name="spring-annotation" options="-parameters" />
       <module name="spring-demo" options="-parameters" />
       <module name="spring-integrate-train" options="-parameters" />
