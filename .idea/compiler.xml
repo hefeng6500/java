@@ -12,6 +12,7 @@
         <module name="spring-ioc" />
         <module name="maven" />
         <module name="servlet" />
+        <module name="springmvc-demo02" />
         <module name="aop-demo01" />
         <module name="spring-demo" />
         <module name="spring-pure-annotation" />
