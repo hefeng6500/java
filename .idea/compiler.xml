@@ -25,6 +25,7 @@
         <module name="mybatis-demo" />
         <module name="spring-annotation" />
         <module name="servlet-demo" />
+        <module name="springmvc" />
         <module name="spring-third-bean" />
       </profile>
     </annotationProcessing>

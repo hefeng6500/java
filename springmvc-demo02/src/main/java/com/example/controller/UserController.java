@@ -11,7 +11,6 @@ public class UserController {
   @ResponseBody
   public String save(){
     System.out.println("user save ...");
-    return "<h1>Hello Spring</h1>";
+    return "{'info':'springmvc'}";
   }
 }
-
