@@ -2,6 +2,7 @@ package com.example.controller;
 
 import com.example.domain.User;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -44,19 +45,36 @@ public class UserController {
     return "{'module':'pojo param'}";
   }
 
-  //数组参数：同名请求参数可以直接映射到对应名称的形参数组对象中
+  // 数组参数：同名请求参数可以直接映射到对应名称的形参数组对象中
   @RequestMapping("/arrayParam")
   @ResponseBody
-  public String arrayParam(String[] likes){
-    System.out.println("数组参数传递 likes ==> "+ Arrays.toString(likes));
+  public String arrayParam(String[] likes) {
+    System.out.println("数组参数传递 likes ==> " + Arrays.toString(likes));
     return "{'module':'array param'}";
   }
 
-  //集合参数：同名请求参数可以使用@RequestParam注解映射到对应名称的集合对象中作为数据
+  // 集合参数：同名请求参数可以使用@RequestParam注解映射到对应名称的集合对象中作为数据
   @RequestMapping("/listParam")
   @ResponseBody
-  public String listParam(@RequestParam List<String> likes){
-    System.out.println("集合参数传递 likes ==> "+ likes);
+  public String listParam(@RequestParam List<String> likes) {
+    System.out.println("集合参数传递 likes ==> " + likes);
     return "{'module':'list param'}";
   }
+
+  // 使用@RequestBody注解将外部传递的json数组数据映射到形参的集合对象中作为数据
+  @RequestMapping("/listParamForJson")
+  @ResponseBody
+  public String listParamForJson(@RequestBody User user) {
+    System.out.println("list common(json)参数传递 list ==> " + user);
+    return "{'module':'list common for json param'}";
+  }
+
+  @RequestMapping("/listPojoParamForJson")
+  @ResponseBody
+  public String listPojoParamForJson(@RequestBody List<User> list){
+    System.out.println("list pojo(json)参数传递 list ==> "+list);
+    return "{'module':'list pojo for json param'}";
+  }
+
+
 }
