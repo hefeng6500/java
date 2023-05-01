@@ -1,6 +1,7 @@
 package com.example.controller;
 
 import com.example.domain.User;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -72,18 +73,18 @@ public class UserController {
 
   @RequestMapping("/listPojoParamForJson")
   @ResponseBody
-  public String listPojoParamForJson(@RequestBody List<User> list){
-    System.out.println("list pojo(json)参数传递 list ==> "+list);
+  public String listPojoParamForJson(@RequestBody List<User> list) {
+    System.out.println("list pojo(json)参数传递 list ==> " + list);
     return "{'module':'list pojo for json param'}";
   }
 
   @RequestMapping("/dataParam")
   @ResponseBody
-  public String dataParam(Date date){
-    System.out.println("参数传递 date ==> "+date);
+  public String dataParam(Date date, @DateTimeFormat(pattern = "yyyy-MM-dd") Date date1) {
+    System.out.println("参数传递 date ==> " + date);
+    System.out.println("参数传递 date1(yyyy-MM-dd) ==> " + date1);
     return "{'module':'data param'}";
-}
-
+  }
 
 
 }
