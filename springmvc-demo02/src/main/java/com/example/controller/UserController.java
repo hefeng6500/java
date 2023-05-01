@@ -5,12 +5,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
+@RequestMapping("/user")
 public class UserController {
 
   @RequestMapping("/save")
   @ResponseBody
   public String save(){
     System.out.println("user save ...");
-    return "{'info':'springmvc'}";
+    return "{'module':'user save'}";
+  }
+
+  @RequestMapping("/commonParam")
+  @ResponseBody
+  public String commonParam(String name,int age){
+    System.out.println("普通参数传递 name ==> "+name);
+    System.out.println("普通参数传递 age ==> "+age);
+    return "{'module':'commonParam'}";
   }
 }
