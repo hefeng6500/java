@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 @Controller
@@ -75,6 +76,14 @@ public class UserController {
     System.out.println("list pojo(json)参数传递 list ==> "+list);
     return "{'module':'list pojo for json param'}";
   }
+
+  @RequestMapping("/dataParam")
+  @ResponseBody
+  public String dataParam(Date date){
+    System.out.println("参数传递 date ==> "+date);
+    return "{'module':'data param'}";
+}
+
 
 
 }
