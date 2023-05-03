@@ -2,9 +2,7 @@ package com.example.controller;
 
 import com.example.domain.User;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,7 +29,7 @@ public class UserController {
 
   @RequestMapping("/toJsonPOJO")
   @ResponseBody
-  public User toJsonPOJO(){
+  public User toJsonPOJO() {
     System.out.println("返回json对象数据");
     User user = new User();
     user.setName("Yang");
@@ -41,7 +39,7 @@ public class UserController {
 
   @RequestMapping("/toJsonList")
   @ResponseBody
-  public List<User> toJsonList(){
+  public List<User> toJsonList() {
     System.out.println("返回json集合数据");
     User user1 = new User();
     user1.setName("Jack");
@@ -58,21 +56,23 @@ public class UserController {
     return userList;
   }
 
-  @RequestMapping("/save")
+  // 设置当前请求方法为POST，表示REST风格中的添加操作
+  @RequestMapping(value = "/users", method = RequestMethod.POST)
   @ResponseBody
-  public String save(@RequestBody User user) {
-    System.out.println("user save..."+user);
+  public String save() {
+    System.out.println("user save...");
     return "{'module':'user save'}";
   }
 
-  @RequestMapping("/delete")
+  @RequestMapping(value = "/users", method = RequestMethod.DELETE)
   @ResponseBody
-  public String delete(Integer id) {
-    System.out.println("user delete..." + id);
+  // 参数别名 id => userId
+  public String delete(@PathVariable("id") Integer userId) {
+    System.out.println("user delete..." + userId);
     return "{'module':'user delete'}";
   }
 
-  @RequestMapping("/update")
+  @RequestMapping(value = "/users/{id}", method = RequestMethod.POST)
   @ResponseBody
   public String update(@RequestBody User user) {
     System.out.println("user update..." + user);
