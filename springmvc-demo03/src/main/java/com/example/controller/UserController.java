@@ -64,7 +64,7 @@ public class UserController {
     return "{'module':'user save'}";
   }
 
-  @RequestMapping(value = "/users", method = RequestMethod.DELETE)
+  @RequestMapping(value = "/users/{id}", method = RequestMethod.DELETE)
   @ResponseBody
   // 参数别名 id => userId
   public String delete(@PathVariable("id") Integer userId) {
@@ -79,14 +79,16 @@ public class UserController {
     return "{'module':'user update'}";
   }
 
-  @RequestMapping("/getById")
+  //设置当前请求方法为GET，表示REST风格中的查询操作
+  @RequestMapping(value = "/users/{id}" ,method = RequestMethod.GET)
   @ResponseBody
-  public String getById(Integer id) {
+  public String getById(@PathVariable Integer id) {
     System.out.println("user getById..." + id);
     return "{'module':'user getById'}";
   }
 
-  @RequestMapping("/findAll")
+  //设置当前请求方法为GET，表示REST风格中的查询操作
+  @RequestMapping(value = "/users" ,method = RequestMethod.GET)
   @ResponseBody
   public String getAll() {
     System.out.println("user getAll...");
