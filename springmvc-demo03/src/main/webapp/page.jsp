@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: 24439
-  Date: 2023/5/1
-  Time: 22:07
+  Date: 2022/12/31
+  Time: 17:30
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-    <h1>你好世界！</h1>
+    <h2>Hello Spring MVC!</h2>
 </body>
 </html>
