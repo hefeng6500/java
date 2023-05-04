@@ -4,6 +4,7 @@ public class Book {
   private Integer id;
   private String type;
   private String name;
+  private double price;
   private String description;
 
   public Integer getId() {
@@ -16,6 +17,10 @@ public class Book {
 
   public String getName() {
     return name;
+  }
+
+  public double getPrice() {
+    return price;
   }
 
   public String getDescription() {
@@ -34,6 +39,10 @@ public class Book {
     this.name = name;
   }
 
+  public void setPrice(double price) {
+    this.price = price;
+  }
+
   public void setDescription(String description) {
     this.description = description;
   }
@@ -44,6 +53,7 @@ public class Book {
             "id=" + id +
             ", type='" + type + '\'' +
             ", name='" + name + '\'' +
+            ", price=" + price +
             ", description='" + description + '\'' +
             '}';
   }
