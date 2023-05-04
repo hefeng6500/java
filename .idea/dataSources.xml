@@ -8,7 +8,7 @@
       <jdbc-url>jdbc:mysql://localhost:3306/mybatis</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="@localhost" uuid="8860cb3b-435d-41b0-9280-7594f48a8ae0">
+    <data-source source="LOCAL" name="@localhost" uuid="023d0b14-72f1-4ef3-bb5f-093dde647546">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>

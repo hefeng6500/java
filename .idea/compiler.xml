@@ -15,6 +15,7 @@
         <module name="servlet" />
         <module name="springmvc-demo02" />
         <module name="aop-demo01" />
+        <module name="ssm" />
         <module name="aop-demo03-affairs" />
         <module name="spring-demo" />
         <module name="spring-pure-annotation" />
