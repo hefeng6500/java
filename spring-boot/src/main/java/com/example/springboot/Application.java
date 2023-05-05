@@ -2,13 +2,20 @@ package com.example.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration;
+import org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory;
+import org.springframework.context.annotation.Bean;
 
-@SpringBootApplication
+
+@SpringBootApplication(exclude = ServletWebServerFactoryAutoConfiguration.class)
 public class Application {
   public static void main(String[] args) {
     SpringApplication.run(Application.class, args);
+  }
+
+  // 配置Jetty服务器
+  @Bean
+  public JettyServletWebServerFactory jettyServletWebServerFactory() {
+    return new JettyServletWebServerFactory();
   }
 }
