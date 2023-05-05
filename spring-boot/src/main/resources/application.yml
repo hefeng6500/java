@@ -1,0 +1,42 @@
+lesson: SpringBoot
+
+spring:
+  profiles:
+    active: dev
+
+enterprise:
+  name: yang
+  age: 20
+  tel: 13866660000
+  subject:
+    - java
+    - javascript
+    - go
+
+---
+#开发
+server:
+  port: 8081
+spring:
+  config:
+    activate:
+      on-profile: dev
+---
+
+#测试环境
+server:
+  port: 8082
+spring:
+  config:
+    activate:
+      on-profile: test
+---
+
+#生产环境
+server:
+  port: 8083
+spring:
+  config:
+    activate:
+      on-profile: pro
+---
