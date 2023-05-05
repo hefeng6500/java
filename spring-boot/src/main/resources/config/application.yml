@@ -1,0 +1,9 @@
+#  * 1级：classpath：application.yml
+#  * 2级：classpath：config/application.yml
+#  * 3级：file ：application.yml
+#  * 4级：file ：config/application.yml
+#
+#  > ==说明：==级别越高优先级越高
+
+server:
+  port: 99
