@@ -33,6 +33,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+
         <!-- 引入适应 Spring Boot 3.0.x 的 Jetty Servlet API 依赖 -->
         <!--<dependency>-->
         <!--    <groupId>jakarta.servlet</groupId>-->
