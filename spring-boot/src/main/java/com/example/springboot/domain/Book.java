@@ -2,20 +2,25 @@ package com.example.springboot.domain;
 
 public class Book {
   private Integer id;
-  private String name;
   private String type;
+  private String name;
+  private double price;
   private String description;
 
   public Integer getId() {
     return id;
   }
 
+  public String getType() {
+    return type;
+  }
+
   public String getName() {
     return name;
   }
 
-  public String getType() {
-    return type;
+  public double getPrice() {
+    return price;
   }
 
   public String getDescription() {
@@ -26,12 +31,16 @@ public class Book {
     this.id = id;
   }
 
+  public void setType(String type) {
+    this.type = type;
+  }
+
   public void setName(String name) {
     this.name = name;
   }
 
-  public void setType(String type) {
-    this.type = type;
+  public void setPrice(double price) {
+    this.price = price;
   }
 
   public void setDescription(String description) {
@@ -42,8 +51,9 @@ public class Book {
   public String toString() {
     return "Book{" +
             "id=" + id +
-            ", name='" + name + '\'' +
             ", type='" + type + '\'' +
+            ", name='" + name + '\'' +
+            ", price=" + price +
             ", description='" + description + '\'' +
             '}';
   }
