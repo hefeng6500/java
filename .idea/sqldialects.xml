@@ -3,6 +3,7 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/aop-demo03-affairs/sql.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/spring-integrate-train/sql.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatisplus/sql.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ssm/sql.sql" dialect="MySQL" />
   </component>
 </project>

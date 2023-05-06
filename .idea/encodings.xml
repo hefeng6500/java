@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://E:/soft/apache-maven-3.8.6-bin/apache-maven-3.8.6/mvn_resp/org/springframework/boot/spring-boot-starter-parent/3.0.5/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aop-demo01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aop-demo02/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aop-demo03-affairs/src/main/java" charset="UTF-8" />
@@ -26,8 +25,11 @@
     <file url="file://$PROJECT_DIR$/spring-ioc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-pure-annotation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-third-bean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatisplus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../soft/apache-maven-3.8.6-bin/apache-maven-3.8.6/maven_repository/org/springframework/boot/spring-boot-starter-parent/3.0.5/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../soft/apache-maven-3.8.6-bin/apache-maven-3.8.6/maven_repository/org/springframework/boot/spring-boot-starter-parent/3.0.6/src/main/resources" charset="UTF-8" />
+    <file url="file://E:/soft/apache-maven-3.8.6-bin/apache-maven-3.8.6/mvn_resp/org/springframework/boot/spring-boot-starter-parent/3.0.5/src/main/resources" charset="UTF-8" />
   </component>
 </project>
