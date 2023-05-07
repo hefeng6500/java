@@ -1,60 +1,22 @@
 package com.example.springbootmybatisplus.domain;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
+import org.apache.ibatis.javassist.runtime.Inner;
+
+@Data
+// @TableName("user")
 public class User {
+  // @TableId(type = IdType.ASSIGN_ID)
   private Long id;
   private String name;
+  @TableField(value = "password", select = false)
   private String password;
   private Integer age;
   private String tel;
-
-  public Long getId() {
-    return id;
-  }
-
-  public String getName() {
-    return name;
-  }
-
-  public String getPassword() {
-    return password;
-  }
-
-  public Integer getAge() {
-    return age;
-  }
-
-  public String getTel() {
-    return tel;
-  }
-
-  public void setId(Long id) {
-    this.id = id;
-  }
-
-  public void setName(String name) {
-    this.name = name;
-  }
-
-  public void setPassword(String password) {
-    this.password = password;
-  }
-
-  public void setAge(Integer age) {
-    this.age = age;
-  }
-
-  public void setTel(String tel) {
-    this.tel = tel;
-  }
-
-  @Override
-  public String toString() {
-    return "User{" +
-            "id=" + id +
-            ", name='" + name + '\'' +
-            ", password='" + password + '\'' +
-            ", age=" + age +
-            ", tel='" + tel + '\'' +
-            '}';
-  }
+  @TableField(exist = false)
+  private Integer online;
 }

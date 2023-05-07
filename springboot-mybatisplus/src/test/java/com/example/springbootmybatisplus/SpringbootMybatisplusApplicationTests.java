@@ -26,9 +26,9 @@ class SpringbootMybatisplusApplicationTests {
   @Test
   void testSave() {
     User user = new User();
-    user.setName("Yang");
+    user.setName("Mike");
     user.setPassword("12345678");
-    user.setTel("'18800009999'");
+    user.setTel("18800009999");
     user.setAge(22);
 
     userDao.insert(user);

@@ -15,5 +15,7 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   global-config:
     banner: false # 去掉 Mybatis Plus banner
-
+    db-config:
+      id-type: auto
+      table-prefix:
 #
