@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.springbootmybatisplus.dao.UserDao;
 import com.example.springbootmybatisplus.domain.User;
+import com.example.springbootmybatisplus.domain.query.UserQuery;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -23,7 +24,7 @@ class SpringbootMybatisplusApplicationTests {
   }
 
   @Test
-  void testSave(){
+  void testSave() {
     User user = new User();
     user.setName("Yang");
     user.setPassword("12345678");
@@ -34,7 +35,7 @@ class SpringbootMybatisplusApplicationTests {
   }
 
   @Test
-  void testUpdate(){
+  void testUpdate() {
     User user = new User();
     user.setId(1L);
     user.setName("Jack Ma");
@@ -45,14 +46,14 @@ class SpringbootMybatisplusApplicationTests {
   }
 
   @Test
-  void testDelete(){
+  void testDelete() {
     Long id = 1655039397934583809L;
 
     userDao.deleteById(id);
   }
 
   @Test
-  void getUserById(){
+  void getUserById() {
     User user = userDao.selectById(1L);
     System.out.println(user);
   }
@@ -65,7 +66,7 @@ class SpringbootMybatisplusApplicationTests {
 
   @Test
   void testGetByPage() {
-    IPage iPage = new Page(2,2);
+    IPage iPage = new Page(2, 2);
     userDao.selectPage(iPage, null);
 
     System.out.println("当前页码：" + iPage.getCurrent());
@@ -80,7 +81,7 @@ class SpringbootMybatisplusApplicationTests {
    * 按条件查询
    */
   @Test
-  void testSelectByCondition(){
+  void testSelectByCondition() {
 
     // 方式一： 按条件查询
     // QueryWrapper wrapper = new QueryWrapper<>();
@@ -98,14 +99,69 @@ class SpringbootMybatisplusApplicationTests {
 
 
     // 方式三： Lambda 格式查询
+    // LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<User>();
+    // // lambdaQueryWrapper.lt(User::getAge, 30);
+    //
+    // // lambdaQueryWrapper.lt(User::getAge, 28).gt(User::getAge, 20);
+    // lambdaQueryWrapper.lt(User::getAge, 20).or().gt(User::getAge, 25);
+    // List<User> userList = userDao.selectList(lambdaQueryWrapper);
+    //
+    //
+    // System.out.println(userList);
+
+    UserQuery userQuery = new UserQuery();
+    userQuery.setAge2(30);
+    userQuery.setAge(22);
+
+
     LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<User>();
-    // lambdaQueryWrapper.lt(User::getAge, 30);
+    lambdaQueryWrapper.lt(null != userQuery.getAge2(), User::getAge, userQuery.getAge2())
+                      .gt(null != userQuery.getAge(), User::getAge, userQuery.getAge());
 
-    // lambdaQueryWrapper.lt(User::getAge, 28).gt(User::getAge, 20);
-    lambdaQueryWrapper.lt(User::getAge, 20).or().gt(User::getAge, 25);
     List<User> userList = userDao.selectList(lambdaQueryWrapper);
-
-
     System.out.println(userList);
   }
+
+  /**
+   * 查询投影
+   */
+  @Test
+  void testSelectByCondition1() {
+    LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<User>();
+    lambdaQueryWrapper.select(User::getId, User::getName);
+
+    List<User> userList = userDao.selectList(lambdaQueryWrapper);
+    System.out.println(userList);
+  }
+
+
+  /**
+   * 查询投影
+   */
+  @Test
+  void testSelectByCondition2() {
+    QueryWrapper<User> queryWrapper = new QueryWrapper<User>();
+    // queryWrapper.select("age", "name");
+
+    queryWrapper.select("count(*) as nums, tel");
+    queryWrapper.groupBy("tel");
+    List<User> userList = userDao.selectList(queryWrapper);
+    System.out.println(userList);
+  }
+
+
+  @Test
+  void testSelectByCondition3() {
+    LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<User>();
+
+    // lambdaQueryWrapper.eq(User::getName, "Jack Ma").eq(User::getPassword, "999");
+    // lambdaQueryWrapper.between(User::getAge, 10, 30);
+    lambdaQueryWrapper.likeRight(User::getName, "J");
+
+    List<User> userList = userDao.selectList(lambdaQueryWrapper);
+    // User user = userDao.selectOne(lambdaQueryWrapper);
+    System.out.println(userList);
+  }
+
+
 }
