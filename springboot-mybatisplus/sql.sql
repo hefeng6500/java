@@ -7,11 +7,12 @@ use
 
 create table user
 (
-    id       BIGINT(20) AUTO_INCREMENT NOT NULL COMMENT '主键ID',
-    name     VARCHAR(30) NULL DEFAULT NULL COMMENT '姓名',
-    age      INT(11)     NULL DEFAULT NULL COMMENT '年龄',
-    password varchar(32),
-    tel      varchar(15),
+    id         BIGINT(20) AUTO_INCREMENT NOT NULL COMMENT '主键ID',
+    name       VARCHAR(30)               NULL DEFAULT NULL COMMENT '姓名',
+    age        INT(11)                   NULL DEFAULT NULL COMMENT '年龄',
+    password   varchar(32),
+    tel        varchar(15),
+    is_deleted TINYINT(1) DEFAULT 0,
     PRIMARY KEY (id)
 );
 

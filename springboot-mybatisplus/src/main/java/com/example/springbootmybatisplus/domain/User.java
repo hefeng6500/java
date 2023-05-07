@@ -1,9 +1,6 @@
 package com.example.springbootmybatisplus.domain;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 import org.apache.ibatis.javassist.runtime.Inner;
 
@@ -19,4 +16,11 @@ public class User {
   private String tel;
   @TableField(exist = false)
   private Integer online;
+
+  @TableField(value = "is_deleted")
+  @TableLogic(value = "0", delval = "1") // 逻辑删除，
+  private Integer deleted;
+
+  @Version
+  private Integer version; // 用于乐观锁
 }

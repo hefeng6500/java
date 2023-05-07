@@ -173,5 +173,25 @@ class SpringbootMybatisplusApplicationTests {
     userDao.deleteBatchIds(list);
   }
 
+  /**
+   * 逻辑删除测试
+   */
+  @Test
+  void testLoginDelete(){
+    userDao.deleteById(3L);
+  }
 
+  @Test
+  void testUpdate2(){
+    // User user = new User();
+    // user.setId(3L);
+    // user.setName("Tom999");
+    // user.setVersion(1);
+
+    // 1. 先通过要修改的数据 id 将当前数据查询出来
+    User user = userDao.selectById(3L);
+    // 2. 将要修改的属性逐一设置进去
+    user.setName("Tom111");
+    userDao.updateById(user);
+  }
 }
