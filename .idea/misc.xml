@@ -35,6 +35,8 @@
         <option value="$PROJECT_DIR$/spring-boot/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot/demo/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatisplus/mybatis-plus-generate/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-generate/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -43,6 +45,7 @@
         <option value="$PROJECT_DIR$/jsp/pom.xml" />
         <option value="$PROJECT_DIR$/junit/spring-third-bean/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatisplus/mybatis-plus-generate/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-demo01/pom.xml" />
         <option value="$PROJECT_DIR$/../mybatis-train/pom.xml" />
       </set>

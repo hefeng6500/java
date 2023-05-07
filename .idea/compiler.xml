@@ -32,6 +32,7 @@
         <module name="mybatis-demo" />
         <module name="spring-annotation" />
         <module name="spring-boot" />
+        <module name="mybatis-plus-generate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
@@ -44,6 +45,7 @@
       <module name="aop-demo02" options="-parameters" />
       <module name="aop-demo03-affairs" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="mybatis-plus-generate" options="-parameters" />
       <module name="spring-annotation" options="-parameters" />
       <module name="spring-boot" options="-parameters" />
       <module name="spring-demo" options="-parameters" />
