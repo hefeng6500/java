@@ -1,5 +1,7 @@
 package com.example.springbootmybatisplus;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.springbootmybatisplus.dao.UserDao;
 import com.example.springbootmybatisplus.domain.User;
 import org.junit.jupiter.api.Test;
@@ -58,5 +60,19 @@ class SpringbootMybatisplusApplicationTests {
     List<User> users = userDao.selectList(null);
     System.out.println(users);
   }
+
+  @Test
+  void testGetByPage() {
+    IPage iPage = new Page(1,2);
+    userDao.selectPage(iPage, null);
+
+    System.out.println("当前页码： " + iPage.getCurrent());
+    System.out.println("每页显示：" + iPage.getSize());
+    System.out.println("一共多少页：" + iPage.getPages());
+    System.out.println("一共多少条" + iPage.getTotal());
+    System.out.println("本页：" + iPage.getRecords());
+  }
+
+
 
 }
