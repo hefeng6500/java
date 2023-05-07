@@ -63,16 +63,13 @@ class SpringbootMybatisplusApplicationTests {
 
   @Test
   void testGetByPage() {
-    IPage iPage = new Page(1,2);
+    IPage iPage = new Page(2,2);
     userDao.selectPage(iPage, null);
 
-    System.out.println("当前页码： " + iPage.getCurrent());
+    System.out.println("当前页码：" + iPage.getCurrent());
     System.out.println("每页显示：" + iPage.getSize());
     System.out.println("一共多少页：" + iPage.getPages());
-    System.out.println("一共多少条" + iPage.getTotal());
-    System.out.println("本页：" + iPage.getRecords());
+    System.out.println("一共多少条：" + iPage.getTotal());
+    System.out.println("本页当前页数据：" + iPage.getRecords());
   }
-
-
-
 }
