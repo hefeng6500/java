@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootTest
@@ -161,6 +162,15 @@ class SpringbootMybatisplusApplicationTests {
     List<User> userList = userDao.selectList(lambdaQueryWrapper);
     // User user = userDao.selectOne(lambdaQueryWrapper);
     System.out.println(userList);
+  }
+
+  @Test
+  void testBatchDelete(){
+    List<Long> list = new ArrayList<>();
+    list.add(1655126609023942657L);
+    list.add(1655126609023942659L);
+
+    userDao.deleteBatchIds(list);
   }
 
 

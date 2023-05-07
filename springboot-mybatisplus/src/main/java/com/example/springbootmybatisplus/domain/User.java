@@ -8,9 +8,9 @@ import lombok.Data;
 import org.apache.ibatis.javassist.runtime.Inner;
 
 @Data
-// @TableName("user")
+@TableName("user")
 public class User {
-  // @TableId(type = IdType.ASSIGN_ID)
+  @TableId(type = IdType.ASSIGN_ID)
   private Long id;
   private String name;
   @TableField(value = "password", select = false)
