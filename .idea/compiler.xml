@@ -11,9 +11,11 @@
         <module name="tomcat-demo" />
         <module name="springboot-mybatisplus" />
         <module name="servlet" />
+        <module name="spring-analysis" />
         <module name="ssm" />
         <module name="aop-demo03-affairs" />
         <module name="demo" />
+        <module name="redis" />
         <module name="spring-pure-annotation" />
         <module name="jsp-instance" />
         <module name="spring-ioc-auto" />
@@ -46,6 +48,8 @@
       <module name="aop-demo03-affairs" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="mybatis-plus-generate" options="-parameters" />
+      <module name="redis" options="-parameters" />
+      <module name="spring-analysis" options="-parameters" />
       <module name="spring-annotation" options="-parameters" />
       <module name="spring-boot" options="-parameters" />
       <module name="spring-demo" options="-parameters" />
